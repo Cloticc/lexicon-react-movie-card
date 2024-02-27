@@ -1,3 +1,5 @@
+# My take on the Movie Cards exercise
+
 ![alt text](image-1.png)
 
 # Movie Cards
