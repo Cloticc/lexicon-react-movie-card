@@ -1,0 +1,108 @@
+.controls-wrapper {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  max-height: 30rem;
+  height: 100%;
+  max-width: 30rem;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.controls-wrapper input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  /* width: 100%; */
+}
+
+.controls-wrapper input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.indicator-wrapper {
+  position: relative;
+}
+
+.indicator-rating {
+  position: absolute;
+  top: -24px;
+  left: 0;
+  background: #007bff;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  max-width: 15px;
+  min-width: 15px;
+}
+
+
+.controls-wrapper textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 10rem;
+  width: 100%;
+  resize: none;
+}
+
+.controls-wrapper textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.clear-movie-btn {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.clear-movie-bt n:hover {
+  background-color: #e4e4e4;
+}
+
+.add-movie-btn {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-movie-btn:hover {
+  background-color: #0056b3;
+}
+
+.controls-wrapper button:hover {
+  background-color: #e4e4e4;
+}
+
+.controls-wrapper button:active {
+  background-color: #d4d4d4;
+}
+
+.controls-wrapper button:disabled {
+  background-color: #f4f4f4;
+  cursor: not-allowed;
+}
+
+.controls-wrapper button:disabled:hover {
+  background-color: #f4f4f4;
+}
