@@ -1,6 +1,7 @@
 # My take on the Movie Cards exercise
-
-![alt text](image-1.png)
+<!-- https://cloticc.github.io/lexicon-react-movie-card/ -->
+[Movie card site](https://cloticc.github.io/lexicon-react-movie-card/)
+ ![alt text](image-1.png)
 
 # Movie Cards
 
